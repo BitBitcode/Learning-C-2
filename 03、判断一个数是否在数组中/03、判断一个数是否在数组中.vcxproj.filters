@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01、使用数组保存数据.c">
+    <ClCompile Include="03、判断一个数是否在数组中.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
