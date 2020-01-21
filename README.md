@@ -8,24 +8,31 @@
     + [（1）基础知识](https://github.com/BitBitcode/Learning-C-1)；
     + [（2）核心技术](https://github.com/BitBitcode/Learning-C-2)；
     + [（3）高级应用](https://github.com/BitBitcode/Learning-C-3)；
-  + “核心技术”部分包括第5章~第9章的内容，包括：数组、函数、结构体、指针、算法等
-  + 其中一些是书中的例子，一些是自己原创的程序
-  + 原创代码在 “**更多信息**” 中列出了清单
+  + “核心技术”部分包括 第5章 ~ 第9章 的内容，包括：数组、函数、结构体、指针、算法等
+  + 其中一些是书中的例子，一些是自己原创的程序。原创代码在 “更多信息” 中列出了清单
+  + 代码由 Visual Studio 2019 生成，下载后可以直接导入使用
 
 
 ## 更新日志
-  + （假装有更新，好吧，只是为了让README看起来更丰满）
-    + 2020.1.21：开始学习
+ （假装有更新，好吧，只是为了让README看起来更丰满）
+  + 2020.1.21：开始学习
 
 
 ## 更多信息
   + **关于该书**
     + 书名：《C语言从入门到精通》
     + 出版社：清华大学出版社
-    + 官方网站：[明日科技图书](https://www.mingribook.com)（如果链接打不开请手动输入：www.mingribook.com ）
+    + 官方网站：[明日科技图书](https://www.mingribook.com)
+      + 如果链接打不开请手动输入：www.mingribook.com
+      
+  + **关于作者**
+    + 个人网页：[BitBitcode的个人主页](https://bitbitcode.github.io/)
+      + 欢迎访问（＾-＾）
+      + 如果链接打不开请手动输入：https://bitbitcode.github.io/
+    + 个人邮箱：smilewwc@qq.com
 
   + **原创代码清单**
-    + 
+    + 暂无
 
 
 ## 版权信息
