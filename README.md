@@ -8,7 +8,7 @@
     + [（1）基础知识](https://github.com/BitBitcode/Learning-C-1)；
     + [（2）核心技术](https://github.com/BitBitcode/Learning-C-2)；
     + [（3）高级应用](https://github.com/BitBitcode/Learning-C-3)；
-  + “核心技术”部分包括 第5章 ~ 第9章 的内容，包括：数组、函数、结构体、指针、算法等
+  + “核心技术” 部分包括 第5章 ~ 第9章 的内容，包括：数组、函数、结构体、指针、算法等
   + 其中一些是书中的例子，一些是自己原创的程序。原创代码在 “更多信息” 中列出了清单
   + 代码由 Visual Studio 2019 生成，下载后可以直接导入使用
 
