@@ -49,7 +49,8 @@ int main()
 	}
 
 	// 宣布选举结果
-	printf("\n琪亚娜的得票数为：%d \n", vote_Kiana);
+	printf("\n");
+	printf("琪亚娜的得票数为：%d \n", vote_Kiana);
 	printf("芽衣的得票数为：%d \n", vote_Mei);
 	printf("布洛妮娅的得票数为：%d \n", vote_Bronya);
 	printf("无效票数为：%d \n", vote_invalid);
