@@ -54,4 +54,6 @@ int main()
 	printf("芽衣的得票数为：%d \n", vote_Mei);
 	printf("布洛妮娅的得票数为：%d \n", vote_Bronya);
 	printf("无效票数为：%d \n", vote_invalid);
+
+	return 0;
 }

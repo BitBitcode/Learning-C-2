@@ -74,5 +74,6 @@ tag:printf("请输入原矩阵的行/数（ ≤ %d）：", MAX);
 	printf("\n正在处理中，请稍后。。。\n\n");
 	printf("该矩阵对角线之和为：\n");
 	printf("a[0,0] + a[1,1] + a[2,2] + ... + a[%d,%d] = %d \n", m, m, sum);
-	return;
+	
+	return 0;
 }

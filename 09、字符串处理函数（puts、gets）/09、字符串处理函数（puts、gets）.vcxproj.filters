@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="09、字符串处理函数（put、get）.c">
+    <ClCompile Include="09、字符串处理函数（puts、gets）.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

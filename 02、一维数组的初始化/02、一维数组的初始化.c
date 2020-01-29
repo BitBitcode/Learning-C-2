@@ -40,4 +40,6 @@ int main()
 	{
 		printf("b[%d] = %d \n", j, b[j]);
 	}
+
+	return 0;
 }

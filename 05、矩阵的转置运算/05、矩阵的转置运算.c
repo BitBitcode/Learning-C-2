@@ -173,5 +173,6 @@ re3:scanf_s("%c", &c, 1);
 		printf("错误！请输入“y”或“n”：\n");
 		goto re3;
 	}
+
 	return 0;
 }

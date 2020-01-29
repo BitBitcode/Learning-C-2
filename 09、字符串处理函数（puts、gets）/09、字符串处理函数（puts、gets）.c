@@ -10,10 +10,10 @@ int main()
 {
 	char c1[] = { "hello\tKiana \nhello\tKaslana" };
 	puts(c1);			// puts()函数：输出字符数组（直接写字符数组名即可，无需写下标）
-	
+
 	char c2[20];
 	printf("请输入：\n");
-	gets_s(c2,20);		// gets()函数已改版
+	gets_s(c2, 20);		// gets()函数已改版，要加入字符数量（类似scanf_s）
 	puts(c2);
 
 	return 0;
