@@ -7,8 +7,8 @@
 
 
 //【声明】
-int length_A(char string[]);
-int length_B(char *p);
+int length_A(char string[]);	//【函数】求字符串长度，定义参数为可变长度的字符型数组
+int length_B(char *p);			//【函数】求字符串长度，定义参数为指针
 
 
 //【主函数】
@@ -21,15 +21,15 @@ int main()
 	gets_s(str, 100);
 
 	// 注意：输出“\0”时，其中的“\”需要使用转义字符“\\”
-	printf("字符串的长度为（不包含“\\0”）：%d \n", length_A(str));
-	printf("字符串的长度为（不包含“\\0”）：%d \n", length_B(str));
+	printf("字符串的长度为（不包含“\\0”）：%d \n", length_A(str));	//【调用】作为另一个函数的参数
+	printf("字符串的长度为（不包含“\\0”）：%d \n", length_B(str));	//【调用】作为另一个函数的参数
 
 	return 0;
 }
 
 
 //【定义】
-int length_A(char string[])	// 定义参数为可变长度的字符型数组
+int length_A(char string[])	//【函数】求字符串长度，定义参数为可变长度的字符型数组
 {
 	int i;
 	int n = 0;
@@ -59,7 +59,7 @@ int length_A(char string[])	// 定义参数为可变长度的字符型数组
 //【拓展】
 // 教材上是用指针写的（但还没有学到指针，所以就用自己的方法写了上面的函数）
 
-int length_B(char* p)	// 定义参数为指针
+int length_B(char* p)	//【函数】求字符串长度，定义参数为指针
 {
 	int i;
 	int n = 0;

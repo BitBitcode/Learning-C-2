@@ -3,6 +3,8 @@
 
 #include<stdio.h>
 
+
+//【函数的定义】
 void move(void)
 {
 	worker();	// C文件中的函数可以直接调用已经定义的其他函数（不用在此C文件中定义）

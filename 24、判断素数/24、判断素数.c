@@ -7,7 +7,7 @@
 
 
 //【声明】
-int judge(int num);
+int judge(int num);	//【函数】判断一个数是否为素数
 
 
 //【主函数】
@@ -18,7 +18,7 @@ int main()
 	printf("请输入要判断的数（整数）：\n");
 	scanf_s("%d", &a);
 
-	if (judge(a))
+	if (judge(a))	//【调用】作为表达式调用，返回值为 1 时执行 if 之后的语句
 	{
 		printf("%d 是素数！\n", a);
 	}
@@ -32,7 +32,7 @@ int main()
 
 
 //【定义】
-int judge(int num)
+int judge(int num)	//【函数】判断一个数是否为素数
 {
 	int signal = 1;
 	int i;

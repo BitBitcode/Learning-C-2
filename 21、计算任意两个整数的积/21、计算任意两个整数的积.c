@@ -7,7 +7,7 @@
 
 
 //【声明】
-float multiplication(float num_1, float num_2);
+float multiplication(float num_1, float num_2);	//【函数】求两个数的乘积
 
 
 int main()
@@ -29,7 +29,7 @@ int main()
 
 
 //【定义】
-float multiplication(float num_1, float num_2)
+float multiplication(float num_1, float num_2)	//【函数】求两个数的乘积
 {
 	float result;
 
