@@ -21,7 +21,7 @@ int main()
 	
 	printf("请输入一个字符串：\n");
 	//c = getch();
-	while ((c = getchar) != '\n')
+	while ((c = getchar) != '\0')
 	{
 		if (c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z')
 		{
