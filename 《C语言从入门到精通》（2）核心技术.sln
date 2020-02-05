@@ -15,7 +15,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05、矩阵的转置运算"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06、求矩阵对角线之和（即“迹”）", "06、求矩阵对角线之和（即“迹”）\06、求矩阵对角线之和（即“迹”）.vcxproj", "{1C992B8C-9E7C-45A5-96ED-E4A2C986D110}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07、打印杨辉三角", "07、打印杨辉三角\07、打印杨辉三角.vcxproj", "{DD296D9D-FC95-42AE-850D-9D793A18E014}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07、【X】打印杨辉三角", "07、打印杨辉三角\07、打印杨辉三角.vcxproj", "{DD296D9D-FC95-42AE-850D-9D793A18E014}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08、字符数组的初始化与输入输出", "08、字符数组的初始化与输入输出\08、字符数组的初始化与输入输出.vcxproj", "{413F8AE9-6B70-4EDE-B311-938743F3CD9F}"
 EndProject
@@ -31,9 +31,19 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13、字符串处理函数�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14、字符串处理函数（strlwr、strupr）", "14、字符串处理函数（strlwr、strupr）\14、字符串处理函数（strlwr、strupr）.vcxproj", "{E17D4634-F8D5-49A1-9EB3-8F91364E25EC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15、统计各种字符的个数", "15、统计各种字符的个数\15、统计各种字符的个数.vcxproj", "{238AA05F-4845-460E-85E9-0C176365475D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15、【X】统计各种字符的个数", "15、统计各种字符的个数\15、统计各种字符的个数.vcxproj", "{238AA05F-4845-460E-85E9-0C176365475D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16、字符升序排列", "16、字符升序排列\16、字符升序排列.vcxproj", "{CEB666E5-781E-4234-92DC-AFF1D9B2A7EF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16、【X】字符升序排列", "16、字符升序排列\16、字符升序排列.vcxproj", "{CEB666E5-781E-4234-92DC-AFF1D9B2A7EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17、模拟比赛打分", "17、模拟比赛打分\17、模拟比赛打分.vcxproj", "{ABADEF06-BE8D-488C-8275-C061E7111324}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18、打印5阶幻方", "18、打印5阶幻方\18、打印5阶幻方.vcxproj", "{4D266DF4-B636-4AAC-BCC4-7C48BC3BACC7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19、找出排在后面的国家名", "19、找出排在后面的国家名\19、找出排在后面的国家名.vcxproj", "{371182B2-F42F-4FD0-9ED6-65E6C3C33DDF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20、函数的声明、定义与调用", "20、函数的声明、定义与调用\20、函数的声明、定义与调用.vcxproj", "{4D56B1CE-1E23-4FBC-967F-D408D7992DDC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21、计算任意两个整数的积", "21、计算任意两个整数的积\21、计算任意两个整数的积.vcxproj", "{D80DFD77-8496-4328-B26D-C0C31B712AFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +181,46 @@ Global
 		{CEB666E5-781E-4234-92DC-AFF1D9B2A7EF}.Release|x64.Build.0 = Release|x64
 		{CEB666E5-781E-4234-92DC-AFF1D9B2A7EF}.Release|x86.ActiveCfg = Release|Win32
 		{CEB666E5-781E-4234-92DC-AFF1D9B2A7EF}.Release|x86.Build.0 = Release|Win32
+		{ABADEF06-BE8D-488C-8275-C061E7111324}.Debug|x64.ActiveCfg = Debug|x64
+		{ABADEF06-BE8D-488C-8275-C061E7111324}.Debug|x64.Build.0 = Debug|x64
+		{ABADEF06-BE8D-488C-8275-C061E7111324}.Debug|x86.ActiveCfg = Debug|Win32
+		{ABADEF06-BE8D-488C-8275-C061E7111324}.Debug|x86.Build.0 = Debug|Win32
+		{ABADEF06-BE8D-488C-8275-C061E7111324}.Release|x64.ActiveCfg = Release|x64
+		{ABADEF06-BE8D-488C-8275-C061E7111324}.Release|x64.Build.0 = Release|x64
+		{ABADEF06-BE8D-488C-8275-C061E7111324}.Release|x86.ActiveCfg = Release|Win32
+		{ABADEF06-BE8D-488C-8275-C061E7111324}.Release|x86.Build.0 = Release|Win32
+		{4D266DF4-B636-4AAC-BCC4-7C48BC3BACC7}.Debug|x64.ActiveCfg = Debug|x64
+		{4D266DF4-B636-4AAC-BCC4-7C48BC3BACC7}.Debug|x64.Build.0 = Debug|x64
+		{4D266DF4-B636-4AAC-BCC4-7C48BC3BACC7}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D266DF4-B636-4AAC-BCC4-7C48BC3BACC7}.Debug|x86.Build.0 = Debug|Win32
+		{4D266DF4-B636-4AAC-BCC4-7C48BC3BACC7}.Release|x64.ActiveCfg = Release|x64
+		{4D266DF4-B636-4AAC-BCC4-7C48BC3BACC7}.Release|x64.Build.0 = Release|x64
+		{4D266DF4-B636-4AAC-BCC4-7C48BC3BACC7}.Release|x86.ActiveCfg = Release|Win32
+		{4D266DF4-B636-4AAC-BCC4-7C48BC3BACC7}.Release|x86.Build.0 = Release|Win32
+		{371182B2-F42F-4FD0-9ED6-65E6C3C33DDF}.Debug|x64.ActiveCfg = Debug|x64
+		{371182B2-F42F-4FD0-9ED6-65E6C3C33DDF}.Debug|x64.Build.0 = Debug|x64
+		{371182B2-F42F-4FD0-9ED6-65E6C3C33DDF}.Debug|x86.ActiveCfg = Debug|Win32
+		{371182B2-F42F-4FD0-9ED6-65E6C3C33DDF}.Debug|x86.Build.0 = Debug|Win32
+		{371182B2-F42F-4FD0-9ED6-65E6C3C33DDF}.Release|x64.ActiveCfg = Release|x64
+		{371182B2-F42F-4FD0-9ED6-65E6C3C33DDF}.Release|x64.Build.0 = Release|x64
+		{371182B2-F42F-4FD0-9ED6-65E6C3C33DDF}.Release|x86.ActiveCfg = Release|Win32
+		{371182B2-F42F-4FD0-9ED6-65E6C3C33DDF}.Release|x86.Build.0 = Release|Win32
+		{4D56B1CE-1E23-4FBC-967F-D408D7992DDC}.Debug|x64.ActiveCfg = Debug|x64
+		{4D56B1CE-1E23-4FBC-967F-D408D7992DDC}.Debug|x64.Build.0 = Debug|x64
+		{4D56B1CE-1E23-4FBC-967F-D408D7992DDC}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D56B1CE-1E23-4FBC-967F-D408D7992DDC}.Debug|x86.Build.0 = Debug|Win32
+		{4D56B1CE-1E23-4FBC-967F-D408D7992DDC}.Release|x64.ActiveCfg = Release|x64
+		{4D56B1CE-1E23-4FBC-967F-D408D7992DDC}.Release|x64.Build.0 = Release|x64
+		{4D56B1CE-1E23-4FBC-967F-D408D7992DDC}.Release|x86.ActiveCfg = Release|Win32
+		{4D56B1CE-1E23-4FBC-967F-D408D7992DDC}.Release|x86.Build.0 = Release|Win32
+		{D80DFD77-8496-4328-B26D-C0C31B712AFA}.Debug|x64.ActiveCfg = Debug|x64
+		{D80DFD77-8496-4328-B26D-C0C31B712AFA}.Debug|x64.Build.0 = Debug|x64
+		{D80DFD77-8496-4328-B26D-C0C31B712AFA}.Debug|x86.ActiveCfg = Debug|Win32
+		{D80DFD77-8496-4328-B26D-C0C31B712AFA}.Debug|x86.Build.0 = Debug|Win32
+		{D80DFD77-8496-4328-B26D-C0C31B712AFA}.Release|x64.ActiveCfg = Release|x64
+		{D80DFD77-8496-4328-B26D-C0C31B712AFA}.Release|x64.Build.0 = Release|x64
+		{D80DFD77-8496-4328-B26D-C0C31B712AFA}.Release|x86.ActiveCfg = Release|Win32
+		{D80DFD77-8496-4328-B26D-C0C31B712AFA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
