@@ -4,7 +4,7 @@
 // 27、用数组写求平均数函数
 
 #include<stdio.h>
-
+#define MAX 99
 
 //【声明】
 float average(float number[], int n);		//【函数】求平均值
@@ -15,18 +15,18 @@ int main()
 {
 	int i, n;	
 
-	float num[100];
+	float num[MAX];
 
-RE:	printf("请输入样本个数（100以内）：\n");
+RE:	printf("请输入样本个数（%d以内）：\n", MAX);
 	scanf_s("%d", &n);
 	
-	if (n > 0 && n <= 100)
+	if (n > 0 && n <= MAX)
 	{
 		printf("请依次输入待求数：\n");
 	}
 	else
 	{
-		printf("ERROR：最大容量为 100，请重新输入！\n\n");
+		printf("ERROR：最大容量为 %d，请重新输入！\n\n", MAX);
 		goto RE;
 	}
 
@@ -35,7 +35,7 @@ RE:	printf("请输入样本个数（100以内）：\n");
 		scanf_s("%f", &num[i]);
 	}
 	
-	printf("已存入！\n");
+	printf("已存入！\n\n");
 	
 	printf("样本的平均数为：%.2f \n", average(num, n));	//【调用】
 	
@@ -47,7 +47,7 @@ RE:	printf("请输入样本个数（100以内）：\n");
 float average(float number[], int n)		//【函数】求平均值（注意参数是可变长度的数组）
 {
 	int i;
-	float average_number;
+	float average_value;
 	float sum = 0;
 
 	for (i = 0; i < n; i++)
@@ -55,7 +55,7 @@ float average(float number[], int n)		//【函数】求平均值（注意参数�
 		sum += number[i];
 	}
 
-	average_number = sum / n;
+	average_value = sum / n;
 
-	return average_number;
+	return average_value;
 }

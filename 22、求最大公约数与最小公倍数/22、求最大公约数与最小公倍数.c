@@ -40,7 +40,6 @@ int max_common_divisor(int num_1, int num_2)		//【函数】求最大公约数
 {
 	int t, r;
 
-	
 	if (num_1 < num_2)
 	{
 		t = num_2;

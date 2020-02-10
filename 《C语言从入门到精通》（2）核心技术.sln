@@ -15,7 +15,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05、矩阵的转置运算"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06、求矩阵对角线之和（即“迹”）", "06、求矩阵对角线之和（即“迹”）\06、求矩阵对角线之和（即“迹”）.vcxproj", "{1C992B8C-9E7C-45A5-96ED-E4A2C986D110}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07、【X】打印杨辉三角", "07、打印杨辉三角\07、打印杨辉三角.vcxproj", "{DD296D9D-FC95-42AE-850D-9D793A18E014}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07、打印杨辉三角", "07、打印杨辉三角\07、打印杨辉三角.vcxproj", "{DD296D9D-FC95-42AE-850D-9D793A18E014}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08、字符数组的初始化与输入输出", "08、字符数组的初始化与输入输出\08、字符数组的初始化与输入输出.vcxproj", "{413F8AE9-6B70-4EDE-B311-938743F3CD9F}"
 EndProject
@@ -37,9 +37,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16、【X】字符升序排
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17、模拟比赛打分", "17、模拟比赛打分\17、模拟比赛打分.vcxproj", "{ABADEF06-BE8D-488C-8275-C061E7111324}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18、打印5阶幻方", "18、打印5阶幻方\18、打印5阶幻方.vcxproj", "{4D266DF4-B636-4AAC-BCC4-7C48BC3BACC7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18、【0】打印5阶幻方", "18、打印5阶幻方\18、打印5阶幻方.vcxproj", "{4D266DF4-B636-4AAC-BCC4-7C48BC3BACC7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19、找出排在后面的国家名", "19、找出排在后面的国家名\19、找出排在后面的国家名.vcxproj", "{371182B2-F42F-4FD0-9ED6-65E6C3C33DDF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19、【0】找出排在后面的国家名", "19、找出排在后面的国家名\19、找出排在后面的国家名.vcxproj", "{371182B2-F42F-4FD0-9ED6-65E6C3C33DDF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20、函数的声明、定义与调用", "20、函数的声明、定义与调用\20、函数的声明、定义与调用.vcxproj", "{4D56B1CE-1E23-4FBC-967F-D408D7992DDC}"
 EndProject
@@ -56,6 +56,16 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "26、求字符串中字符的个数", "26、求字符串中字符的个数\26、求字符串中字符的个数.vcxproj", "{64D64944-8975-44E7-A6C6-C044E7F78876}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "27、用数组写求平均数函数", "27、用数组写求平均数函数\27、用数组写求平均数函数.vcxproj", "{6291BFC9-32FB-4B2C-B6CD-687DAC16C3AD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "28、函数的三种调用方式", "28、函数的三种调用方式\28、函数的三种调用方式.vcxproj", "{D9971A94-04C7-461F-B2E4-0092DD05C63D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "29、【0】递归函数", "29、递归函数\29、递归函数.vcxproj", "{7F8A1002-A585-4C75-A6F9-A1E467CBE40B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30、【0】分数计算器", "30、分数计算器\30、分数计算器.vcxproj", "{8B1DE606-8556-466F-9A64-D59899BDFCC6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31、递归解分鱼问题", "31、递归解分鱼问题\31、递归解分鱼问题.vcxproj", "{AB497F9C-2A30-4C67-A143-8C07174C0BF3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "32、局部变量与全局变量", "32、局部变量与全局变量\32、局部变量与全局变量.vcxproj", "{2FDB5224-EECB-4C77-83A1-DE59419DA3EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -281,6 +291,46 @@ Global
 		{6291BFC9-32FB-4B2C-B6CD-687DAC16C3AD}.Release|x64.Build.0 = Release|x64
 		{6291BFC9-32FB-4B2C-B6CD-687DAC16C3AD}.Release|x86.ActiveCfg = Release|Win32
 		{6291BFC9-32FB-4B2C-B6CD-687DAC16C3AD}.Release|x86.Build.0 = Release|Win32
+		{D9971A94-04C7-461F-B2E4-0092DD05C63D}.Debug|x64.ActiveCfg = Debug|x64
+		{D9971A94-04C7-461F-B2E4-0092DD05C63D}.Debug|x64.Build.0 = Debug|x64
+		{D9971A94-04C7-461F-B2E4-0092DD05C63D}.Debug|x86.ActiveCfg = Debug|Win32
+		{D9971A94-04C7-461F-B2E4-0092DD05C63D}.Debug|x86.Build.0 = Debug|Win32
+		{D9971A94-04C7-461F-B2E4-0092DD05C63D}.Release|x64.ActiveCfg = Release|x64
+		{D9971A94-04C7-461F-B2E4-0092DD05C63D}.Release|x64.Build.0 = Release|x64
+		{D9971A94-04C7-461F-B2E4-0092DD05C63D}.Release|x86.ActiveCfg = Release|Win32
+		{D9971A94-04C7-461F-B2E4-0092DD05C63D}.Release|x86.Build.0 = Release|Win32
+		{7F8A1002-A585-4C75-A6F9-A1E467CBE40B}.Debug|x64.ActiveCfg = Debug|x64
+		{7F8A1002-A585-4C75-A6F9-A1E467CBE40B}.Debug|x64.Build.0 = Debug|x64
+		{7F8A1002-A585-4C75-A6F9-A1E467CBE40B}.Debug|x86.ActiveCfg = Debug|Win32
+		{7F8A1002-A585-4C75-A6F9-A1E467CBE40B}.Debug|x86.Build.0 = Debug|Win32
+		{7F8A1002-A585-4C75-A6F9-A1E467CBE40B}.Release|x64.ActiveCfg = Release|x64
+		{7F8A1002-A585-4C75-A6F9-A1E467CBE40B}.Release|x64.Build.0 = Release|x64
+		{7F8A1002-A585-4C75-A6F9-A1E467CBE40B}.Release|x86.ActiveCfg = Release|Win32
+		{7F8A1002-A585-4C75-A6F9-A1E467CBE40B}.Release|x86.Build.0 = Release|Win32
+		{8B1DE606-8556-466F-9A64-D59899BDFCC6}.Debug|x64.ActiveCfg = Debug|x64
+		{8B1DE606-8556-466F-9A64-D59899BDFCC6}.Debug|x64.Build.0 = Debug|x64
+		{8B1DE606-8556-466F-9A64-D59899BDFCC6}.Debug|x86.ActiveCfg = Debug|Win32
+		{8B1DE606-8556-466F-9A64-D59899BDFCC6}.Debug|x86.Build.0 = Debug|Win32
+		{8B1DE606-8556-466F-9A64-D59899BDFCC6}.Release|x64.ActiveCfg = Release|x64
+		{8B1DE606-8556-466F-9A64-D59899BDFCC6}.Release|x64.Build.0 = Release|x64
+		{8B1DE606-8556-466F-9A64-D59899BDFCC6}.Release|x86.ActiveCfg = Release|Win32
+		{8B1DE606-8556-466F-9A64-D59899BDFCC6}.Release|x86.Build.0 = Release|Win32
+		{AB497F9C-2A30-4C67-A143-8C07174C0BF3}.Debug|x64.ActiveCfg = Debug|x64
+		{AB497F9C-2A30-4C67-A143-8C07174C0BF3}.Debug|x64.Build.0 = Debug|x64
+		{AB497F9C-2A30-4C67-A143-8C07174C0BF3}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB497F9C-2A30-4C67-A143-8C07174C0BF3}.Debug|x86.Build.0 = Debug|Win32
+		{AB497F9C-2A30-4C67-A143-8C07174C0BF3}.Release|x64.ActiveCfg = Release|x64
+		{AB497F9C-2A30-4C67-A143-8C07174C0BF3}.Release|x64.Build.0 = Release|x64
+		{AB497F9C-2A30-4C67-A143-8C07174C0BF3}.Release|x86.ActiveCfg = Release|Win32
+		{AB497F9C-2A30-4C67-A143-8C07174C0BF3}.Release|x86.Build.0 = Release|Win32
+		{2FDB5224-EECB-4C77-83A1-DE59419DA3EC}.Debug|x64.ActiveCfg = Debug|x64
+		{2FDB5224-EECB-4C77-83A1-DE59419DA3EC}.Debug|x64.Build.0 = Debug|x64
+		{2FDB5224-EECB-4C77-83A1-DE59419DA3EC}.Debug|x86.ActiveCfg = Debug|Win32
+		{2FDB5224-EECB-4C77-83A1-DE59419DA3EC}.Debug|x86.Build.0 = Debug|Win32
+		{2FDB5224-EECB-4C77-83A1-DE59419DA3EC}.Release|x64.ActiveCfg = Release|x64
+		{2FDB5224-EECB-4C77-83A1-DE59419DA3EC}.Release|x64.Build.0 = Release|x64
+		{2FDB5224-EECB-4C77-83A1-DE59419DA3EC}.Release|x86.ActiveCfg = Release|Win32
+		{2FDB5224-EECB-4C77-83A1-DE59419DA3EC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
