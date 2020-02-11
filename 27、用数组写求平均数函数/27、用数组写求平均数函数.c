@@ -44,7 +44,9 @@ RE:	printf("请输入样本个数（%d以内）：\n", MAX);
 
 
 //【定义】
-float average(float number[], int n)		//【函数】求平均值（注意参数是可变长度的数组）
+
+//【函数】求平均值（注意参数是可变长度的数组）
+float average(float number[], int n)
 {
 	int i;
 	float average_value;

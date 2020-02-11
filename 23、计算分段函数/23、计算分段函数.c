@@ -34,7 +34,9 @@ int main()
 
 
 //【定义】
-float f(float n)	// 【函数】分段函数
+
+// 【函数】分段函数
+float f(float n)	
 {
 	float m;
 

@@ -7,12 +7,17 @@
 
 
 //【声明】
-
+int gcd(int a, int b);
+int lcm(int a, int b);
 
 //【主函数】
 int main()
 {
+	int x=2, y=4;
 
+	printf("%d \n", 1 % 2);
+	printf("%d \n", 2%4);
+	printf("%d", gcd(x, y));
 
 	return 0;
 }
@@ -20,13 +25,15 @@ int main()
 
 
 //【定义】
-int mcd(int a, int b)		//【函数】求最大公约数（max_common_divisor）
+
+//【函数】求最大公约数（Greatest_Common_Divisor）
+int gcd(int a, int b)
 {
 	return b ? mcd(b, a % b) : a;
 }
 
-
-int mcm(int a, int b)		//【函数】求最小公倍数（min_common_multiple）
+//【函数】求最小公倍数（Least_Common_Multiple）
+int lcm(int a, int b)
 {
 	return a / mcd(a, b) * b;
 }

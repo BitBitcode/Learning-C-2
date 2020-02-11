@@ -7,8 +7,8 @@
 
 
 //【声明】
-int max_common_divisor(int num_1, int num_2);		//【函数】求最大公约数
-int min_common_multiple(int num_1, int num_2);		//【函数】求最小公倍数
+int Greatest_Common_Divisor(int num_1, int num_2);		//【函数】求最大公约数
+int Least_Common_Multiple(int num_1, int num_2);		//【函数】求最小公倍数
 
 
 //【主函数】
@@ -25,8 +25,8 @@ int main()
 	scanf_s("%d", &b);
 	printf("\n");
 	
-	x = max_common_divisor(a, b);	//【调用】
-	y = min_common_multiple(a, b);	//【调用】
+	x = Greatest_Common_Divisor(a, b);	//【调用】
+	y = Least_Common_Multiple(a, b);	//【调用】
 
 	printf("两个数的最大公约数为：%d\n", x);
 	printf("两个数的最小公倍数为：%d\n", y);
@@ -36,16 +36,19 @@ int main()
 
 
 //【定义】
-int max_common_divisor(int num_1, int num_2)		//【函数】求最大公约数
+
+//【函数】求最大公约数
+int Greatest_Common_Divisor(int num_1, int num_2)
 {
 	int t, r;
 
-	if (num_1 < num_2)
+	// 30例中没有交换顺序的代码，又试了一下把这个交换去掉也不影响
+	/*if (num_1 < num_2)
 	{
 		t = num_2;
 		num_2 = num_1;
 		num_1 = t;
-	}
+	}*/
 
 	while ((r = num_1 % num_2) != 0)
 	{
@@ -57,16 +60,17 @@ int max_common_divisor(int num_1, int num_2)		//【函数】求最大公约数
 }
 
 
-int min_common_multiple(int num_1, int num_2)		//【函数】求最小公倍数
+//【函数】求最小公倍数
+int Least_Common_Multiple(int num_1, int num_2)
 {
 	int h;
 
-	h = max_common_divisor(num_1, num_2);
+	h = Greatest_Common_Divisor(num_1, num_2);
 
 	return (num_1 * num_2 / h);		
 	// return 语句其实是有括号的，括号内可以是表达式，而平时只有一个数就省略了
 }
 
 
-// 最大公倍数的算法：辗转相除法
+// 最大公约数的算法：辗转相除法
 // 最小公倍数的算法：两数相乘的积除以二者的最大公约数

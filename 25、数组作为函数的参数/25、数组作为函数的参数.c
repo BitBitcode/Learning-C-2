@@ -42,13 +42,16 @@ int main()
 
 
 //【定义】
-void print_number_A(int num)	// 【函数】形式参数为普通变量
+
+// 【函数】形式参数为普通变量
+void print_number_A(int num)	
 {
 	printf("输入的数字为：%d \n", num);
 }
 
 
-void print_number_B(int num[5])	// 【函数】形式参数为数组
+// 【函数】形式参数为数组
+void print_number_B(int num[5])	
 {
 	int i;	// 注意：这里的“i”是函数的内部参数，可以和其他函数中的参数重名（作用域的知识在后续会学习）
 	

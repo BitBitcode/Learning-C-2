@@ -32,7 +32,9 @@ int main()
 
 
 //【定义】
-int judge(int num)	//【函数】判断一个数是否为素数
+
+//【函数】判断一个数是否为素数
+int judge(int num)
 {
 	int signal = 1;
 	int i;

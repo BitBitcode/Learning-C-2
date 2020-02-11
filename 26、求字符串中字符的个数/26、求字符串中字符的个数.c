@@ -29,7 +29,9 @@ int main()
 
 
 //【定义】
-int length_A(char string[])	//【函数】求字符串长度，定义参数为可变长度的字符型数组
+
+//【函数】求字符串长度，定义参数为可变长度的字符型数组
+int length_A(char string[])	
 {
 	int i;
 	int n = 0;
@@ -59,7 +61,8 @@ int length_A(char string[])	//【函数】求字符串长度，定义参数为�
 //【拓展】
 // 教材上是用指针写的（但还没有学到指针，所以就用自己的方法写了上面的函数）
 
-int length_B(char* p)	//【函数】求字符串长度，定义参数为指针
+//【函数】求字符串长度，定义参数为指针
+int length_B(char* p)	
 {
 	int i;
 	int n = 0;
