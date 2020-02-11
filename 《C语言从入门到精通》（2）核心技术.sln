@@ -59,13 +59,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "27、用数组写求平均�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "28、函数的三种调用方式", "28、函数的三种调用方式\28、函数的三种调用方式.vcxproj", "{D9971A94-04C7-461F-B2E4-0092DD05C63D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "29、【0】递归函数", "29、递归函数\29、递归函数.vcxproj", "{7F8A1002-A585-4C75-A6F9-A1E467CBE40B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "29、【？】递归函数", "29、递归函数\29、递归函数.vcxproj", "{7F8A1002-A585-4C75-A6F9-A1E467CBE40B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30、【0】分数计算器", "30、分数计算器\30、分数计算器.vcxproj", "{8B1DE606-8556-466F-9A64-D59899BDFCC6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30、分数计算器", "30、分数计算器\30、分数计算器.vcxproj", "{8B1DE606-8556-466F-9A64-D59899BDFCC6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31、递归解分鱼问题", "31、递归解分鱼问题\31、递归解分鱼问题.vcxproj", "{AB497F9C-2A30-4C67-A143-8C07174C0BF3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31、【？】递归解分鱼问题", "31、递归解分鱼问题\31、递归解分鱼问题.vcxproj", "{AB497F9C-2A30-4C67-A143-8C07174C0BF3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "32、局部变量与全局变量", "32、局部变量与全局变量\32、局部变量与全局变量.vcxproj", "{2FDB5224-EECB-4C77-83A1-DE59419DA3EC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "33、变量的存储类别", "33、变量的存储类别\33、变量的存储类别.vcxproj", "{7C5E483A-A351-47E5-BDBD-19B0BFA9A094}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -331,6 +333,14 @@ Global
 		{2FDB5224-EECB-4C77-83A1-DE59419DA3EC}.Release|x64.Build.0 = Release|x64
 		{2FDB5224-EECB-4C77-83A1-DE59419DA3EC}.Release|x86.ActiveCfg = Release|Win32
 		{2FDB5224-EECB-4C77-83A1-DE59419DA3EC}.Release|x86.Build.0 = Release|Win32
+		{7C5E483A-A351-47E5-BDBD-19B0BFA9A094}.Debug|x64.ActiveCfg = Debug|x64
+		{7C5E483A-A351-47E5-BDBD-19B0BFA9A094}.Debug|x64.Build.0 = Debug|x64
+		{7C5E483A-A351-47E5-BDBD-19B0BFA9A094}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C5E483A-A351-47E5-BDBD-19B0BFA9A094}.Debug|x86.Build.0 = Debug|Win32
+		{7C5E483A-A351-47E5-BDBD-19B0BFA9A094}.Release|x64.ActiveCfg = Release|x64
+		{7C5E483A-A351-47E5-BDBD-19B0BFA9A094}.Release|x64.Build.0 = Release|x64
+		{7C5E483A-A351-47E5-BDBD-19B0BFA9A094}.Release|x86.ActiveCfg = Release|Win32
+		{7C5E483A-A351-47E5-BDBD-19B0BFA9A094}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

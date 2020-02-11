@@ -38,20 +38,20 @@ int solution(int n)
 {
 	if (n == 1)
 	{
-		int i = 0;
+		static int i = 0;		// 静态局部变量可以使变量的值一直保留，不被释放内存
 		do
 		{
 			i++;
 		} 
 		while (i % 5 != 0);
-		return (i+1);
+		return (i + 1);
 	}
 	else
 	{
 		int t;
 		do
 		{
-			t = solution(n = 1);
+			t = solution(n - 1);
 		} 
 		while (t % 4 != 0);
 		return (t / 4 * 5 + 1);
