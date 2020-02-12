@@ -11,12 +11,13 @@
 */
 
 
-
+//【声明】
 void function_A();
 void function_B();
 
 
 #include<stdio.h>
+
 
 int main()
 {
