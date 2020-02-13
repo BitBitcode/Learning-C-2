@@ -24,6 +24,7 @@ int main()
 	auto char i = 'a';		// 我们平时定义的其实都是“auto型”，即未说明视为省略了“auto”
 	printf("for之外定义的 i = %d \n\n", i);
 
+	printf("【函数内的变量是auto型】\n");
 	for (int i = 1; i <= 5; i++)	// 允许重名定义
 	{
 		printf("第%d次循环：", i);
@@ -32,6 +33,7 @@ int main()
 
 	printf("\n");
 
+	printf("【函数内的变量是static型】\n");
 	for (int i = 0; i < 5; i++)		// 允许重名定义
 	{
 		printf("第%d次循环：", (i + 1));
@@ -58,3 +60,6 @@ void function_B()
 	a++;
 	printf("sum = %d \n", sum);
 }
+
+
+// 需要注意的是：虽然static型不释放内存，但函数之外的语句也不能调用这个变量，即作用域不变
