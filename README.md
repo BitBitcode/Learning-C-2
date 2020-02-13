@@ -14,6 +14,7 @@
 
 ## 更新日志
 （假装有更新，好吧，只是为了让README看起来更丰满）
+  + 2020.2.13：函数学习完成
   + 2020.2.5：字符数组学习完成
   + 2020.1.29：数字数组学习完成
   + 2020.1.25：去做了个小项目“[超级色值计算器](https://github.com/BitBitcode/RGB-Converter)”
@@ -25,7 +26,7 @@
     + 书名：《C语言从入门到精通》
     + 出版社：清华大学出版社
     + 官方网站：[明日科技图书](https://www.mingribook.com)
-      
+    
   + **关于作者**
     + 个人网页：[BitBitcode的个人主页](https://bitbitcode.github.io/)，欢迎访问（＾_＾）
     + 个人邮箱：smilewwc@qq.com
