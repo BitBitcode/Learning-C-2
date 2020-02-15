@@ -93,6 +93,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "43、逆序存放数组元�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "44、二维数组与指针", "44、二维数组与指针\44、二维数组与指针.vcxproj", "{75503686-5C09-47CE-AC74-545787D7326B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "45、使用指针输出二维数组的指定元素", "45、使用指针输出二维数组的指定元素\45、使用指针输出二维数组的指定元素.vcxproj", "{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -461,6 +463,14 @@ Global
 		{75503686-5C09-47CE-AC74-545787D7326B}.Release|x64.Build.0 = Release|x64
 		{75503686-5C09-47CE-AC74-545787D7326B}.Release|x86.ActiveCfg = Release|Win32
 		{75503686-5C09-47CE-AC74-545787D7326B}.Release|x86.Build.0 = Release|Win32
+		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Debug|x64.ActiveCfg = Debug|x64
+		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Debug|x64.Build.0 = Debug|x64
+		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Debug|x86.ActiveCfg = Debug|Win32
+		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Debug|x86.Build.0 = Debug|Win32
+		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Release|x64.ActiveCfg = Release|x64
+		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Release|x64.Build.0 = Release|x64
+		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Release|x86.ActiveCfg = Release|Win32
+		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
