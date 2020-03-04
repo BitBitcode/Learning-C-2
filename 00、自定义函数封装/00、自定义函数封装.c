@@ -20,6 +20,14 @@ int main()
 	printf("e^2 = %f \n", E * E);
 
 
+	//【测试】判断素数
+	int n, m;
+	printf("请输入：");
+	scanf_s("%d", &n);
+	m = is_prime_number(n);
+	printf("%d", m);
+
+
 	//【测试】约分函数
 	int A, B;
 	A = 5;
