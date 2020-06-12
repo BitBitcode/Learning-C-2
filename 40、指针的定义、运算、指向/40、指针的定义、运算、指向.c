@@ -5,7 +5,7 @@
 
 #include<stdio.h>
 
-int main()
+int f()
 {
 	int a = 0;
 	int b = 3;
