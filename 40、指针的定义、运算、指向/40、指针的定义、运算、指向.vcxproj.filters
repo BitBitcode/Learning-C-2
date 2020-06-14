@@ -18,8 +18,5 @@
     <ClCompile Include="40、指针的定义、运算、指向.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="源.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

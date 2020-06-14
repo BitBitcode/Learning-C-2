@@ -5,7 +5,9 @@
 
 #include<stdio.h>
 
-int f()
+void test(int* p1);
+
+int main()
 {
 	int a = 0;
 	int b = 3;
@@ -60,5 +62,24 @@ int f()
 	printf("Tip：可见地址交换后变量的值是不变的\n");
 	// 将这一部分放在其他部分前面会报错“读取访问权限冲突”，不知道为什么
 
-	return 0;
+
+	//【易混辨析】
+	printf("\n【易混辨析】\n");
+	int* p1;
+	int x = 520;
+	p1 = &x;
+
+	printf("*p1 = %d，p1 = %d，&p1 = %d，&(*p1) = %d \n", *p1, p1, &p1, &(*p1));
+	printf("x = %d，&x = %d \n\n", x, &x);
+
+	test(p1);
+
+	printf("*p1 = %d，p1 = %d，&p1 = %d，&(*p1) = %d \n", *p1, p1, &p1, &(*p1));
+	printf("x = %d，&x = %d \n", x, &x);
+}
+
+
+void test(int* p2)
+{
+	*p2 = 1314;
 }
