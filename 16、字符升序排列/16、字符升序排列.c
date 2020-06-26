@@ -38,8 +38,8 @@ int main()
 		k++;
 	}
 
-	str3[k] = '\n';
-	if (str1[i] == '\n')
+	str3[k] = '\0';
+	if (str1[i] == '\0')
 	{
 		p = str2 + j;
 	}

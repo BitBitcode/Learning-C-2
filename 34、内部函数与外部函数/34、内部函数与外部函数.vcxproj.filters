@@ -18,5 +18,8 @@
     <ClCompile Include="34、内部函数与外部函数.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="function1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

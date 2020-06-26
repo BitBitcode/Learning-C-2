@@ -10,7 +10,7 @@ int main()
 {
 	int x, y, n;
 	float z;
-	float a, b, c;
+	double a, b, c;
 
 	x = -3;
 	y = abs(x);
@@ -26,7 +26,7 @@ int main()
 
 	//【小数分离】
 	a = 2.71828;
-	c = modf(a, &b);
+	c = modf(a, &b);		// 【注意】使用此函数时，需留意定义变量的取值范围（定义为 float 会报错）
 	printf("%f = %f + %f \n", a, b, c);
 
 	//【n次幂】

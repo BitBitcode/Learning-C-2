@@ -20,8 +20,7 @@ int main()
 	int others = 0;		// 其他
 	
 	printf("请输入一个字符串：\n");
-	//c = getch();
-	while ((c = getchar) != '\0')
+	while ((c = getchar()) != '\n')
 	{
 		if (c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z')
 		{
