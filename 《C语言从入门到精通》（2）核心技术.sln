@@ -31,7 +31,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13、字符串处理函数�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14、字符串处理函数（strlwr、strupr）", "14、字符串处理函数（strlwr、strupr）\14、字符串处理函数（strlwr、strupr）.vcxproj", "{E17D4634-F8D5-49A1-9EB3-8F91364E25EC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15、【X】统计各种字符的个数", "15、统计各种字符的个数\15、统计各种字符的个数.vcxproj", "{238AA05F-4845-460E-85E9-0C176365475D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15、统计各种字符的个数", "15、统计各种字符的个数\15、统计各种字符的个数.vcxproj", "{238AA05F-4845-460E-85E9-0C176365475D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16、【X】字符升序排列", "16、字符升序排列\16、字符升序排列.vcxproj", "{CEB666E5-781E-4234-92DC-AFF1D9B2A7EF}"
 EndProject
@@ -69,9 +69,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "32、局部变量与全局�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "33、变量的存储类别", "33、变量的存储类别\33、变量的存储类别.vcxproj", "{7C5E483A-A351-47E5-BDBD-19B0BFA9A094}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "34、【0】内部函数与外部函数", "34、内部函数与外部函数\34、内部函数与外部函数.vcxproj", "{EBCDD0B9-2A9E-42E2-948A-C6A41203397D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "34、内部函数与外部函数", "34、内部函数与外部函数\34、内部函数与外部函数.vcxproj", "{EBCDD0B9-2A9E-42E2-948A-C6A41203397D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35、【X】数学函数（math.h）", "35、数学函数（math.h）\35、数学函数（math.h）.vcxproj", "{76A03B64-1F5D-4BA3-A7DE-71C87B080536}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35、数学函数（math.h）", "35、数学函数（math.h）\35、数学函数（math.h）.vcxproj", "{76A03B64-1F5D-4BA3-A7DE-71C87B080536}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "36、字符函数（ctype.h）", "36、字符函数（ctype.h）\36、字符函数（ctype.h）.vcxproj", "{BCD5B9B0-2F2D-4FE1-91B0-D5EB1A97CF78}"
 EndProject
@@ -93,7 +93,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "43、逆序存放数组元�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "44、二维数组与指针", "44、二维数组与指针\44、二维数组与指针.vcxproj", "{75503686-5C09-47CE-AC74-545787D7326B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "45、使用指针输出二维数组的指定元素", "45、使用指针输出二维数组的指定元素\45、使用指针输出二维数组的指定元素.vcxproj", "{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "45、用数组名调用二维数组的指针", "45、用数组名调用二维数组的指针\45、用数组名调用二维数组的指针.vcxproj", "{6A2EBA37-7F9C-4B21-8B81-7D93C087B90F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -463,14 +463,14 @@ Global
 		{75503686-5C09-47CE-AC74-545787D7326B}.Release|x64.Build.0 = Release|x64
 		{75503686-5C09-47CE-AC74-545787D7326B}.Release|x86.ActiveCfg = Release|Win32
 		{75503686-5C09-47CE-AC74-545787D7326B}.Release|x86.Build.0 = Release|Win32
-		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Debug|x64.ActiveCfg = Debug|x64
-		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Debug|x64.Build.0 = Debug|x64
-		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Debug|x86.ActiveCfg = Debug|Win32
-		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Debug|x86.Build.0 = Debug|Win32
-		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Release|x64.ActiveCfg = Release|x64
-		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Release|x64.Build.0 = Release|x64
-		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Release|x86.ActiveCfg = Release|Win32
-		{38B17E33-51DE-4C71-9A4D-E8BB3ECAD25C}.Release|x86.Build.0 = Release|Win32
+		{6A2EBA37-7F9C-4B21-8B81-7D93C087B90F}.Debug|x64.ActiveCfg = Debug|x64
+		{6A2EBA37-7F9C-4B21-8B81-7D93C087B90F}.Debug|x64.Build.0 = Debug|x64
+		{6A2EBA37-7F9C-4B21-8B81-7D93C087B90F}.Debug|x86.ActiveCfg = Debug|Win32
+		{6A2EBA37-7F9C-4B21-8B81-7D93C087B90F}.Debug|x86.Build.0 = Debug|Win32
+		{6A2EBA37-7F9C-4B21-8B81-7D93C087B90F}.Release|x64.ActiveCfg = Release|x64
+		{6A2EBA37-7F9C-4B21-8B81-7D93C087B90F}.Release|x64.Build.0 = Release|x64
+		{6A2EBA37-7F9C-4B21-8B81-7D93C087B90F}.Release|x86.ActiveCfg = Release|Win32
+		{6A2EBA37-7F9C-4B21-8B81-7D93C087B90F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
