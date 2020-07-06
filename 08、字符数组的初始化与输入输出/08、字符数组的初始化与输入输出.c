@@ -26,7 +26,7 @@ int main()
 	printf("\n\n");
 
 
-	// 可以利用格式符“%d”，进行逐个输入输出
+	// 可以利用格式符“%c”，进行逐个输入输出
 	printf("【字符串的逐个输入输出】\n");
 	printf("请输入：\n");
 	for (i = 0; i < 10; i++)
@@ -45,9 +45,9 @@ int main()
 	printf("【字符串的整体输入输出】\n");
 	printf("请输入：\n");
 	scanf_s("%s", c3, 10);
+
 	printf("已输入：\n");
-	printf("%s \n", c3);
-	printf("\n");
+	printf("%s \n\n", c3);
 
 	return 0;
 }
