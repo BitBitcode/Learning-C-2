@@ -5,7 +5,6 @@
 
 #include<stdio.h>
 
-
 int main()
 {
 	int A[5] = { 0,1,2,3,4 };
