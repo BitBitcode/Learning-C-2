@@ -28,7 +28,7 @@ int main()
 		puts(week + i);
 		// 正如同此前输出字符数组（一维数组）一样，引用的是一维数组的首地址（即数组名），要输出二维数组，需要引用每行的首地址
 		// week + i 等价于 week[i]
-		// 或者：printf("%s\n", week[i]);
+		// 即也可以写为：“puts(week[i]);”，或者：“printf("%s\n", week[i]);”
 	}
 	printf("\n");
 
@@ -92,7 +92,8 @@ int main()
 	for (j = 0; j < 12; j++)
 	{
 		puts(month[j]);
-		// 或者：printf("%s\n", month[j]);
+		// 也可以写为：“puts(*(month + j));”，要注意的是，此时month[]数组为一维数组，故不能写为“puts(month + j)”
+		// 当然你也可以使用：printf("%s\n", month[j]);
 	}
 
 	return 0;

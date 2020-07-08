@@ -101,11 +101,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "47、字符型指针", "47�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "48、字符串数组与指针数组", "48、字符串数组与指针数组\48、字符串数组与指针数组.vcxproj", "{820994AD-A34B-455E-BFF0-1FD6CEC4A2A9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "49、字符串的匹配（查找）", "49、字符串的匹配（查找）\49、字符串的匹配（查找）.vcxproj", "{D1C0A78A-A210-48D9-B69F-0B4FBA70C528}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "49、【？】字符串的匹配（查找）", "49、字符串的匹配（查找）\49、字符串的匹配（查找）.vcxproj", "{D1C0A78A-A210-48D9-B69F-0B4FBA70C528}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "50、将字符串按照字母顺序输出", "50、将字符串按照字母顺序输出\50、将字符串按照字母顺序输出.vcxproj", "{F4D96D46-4312-49BB-BEF3-0FD1CED89B03}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "51、指针变量作为函数参数", "51、指针变量作为函数参数\51、指针变量作为函数参数.vcxproj", "{5B676266-890E-4E35-A16A-7A49B754C5EE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "52、数组指针作函数的参数", "52、数组指针作函数的参数\52、数组指针作函数的参数.vcxproj", "{32210749-5BDA-4E8F-B028-880271A255EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -531,6 +533,14 @@ Global
 		{5B676266-890E-4E35-A16A-7A49B754C5EE}.Release|x64.Build.0 = Release|x64
 		{5B676266-890E-4E35-A16A-7A49B754C5EE}.Release|x86.ActiveCfg = Release|Win32
 		{5B676266-890E-4E35-A16A-7A49B754C5EE}.Release|x86.Build.0 = Release|Win32
+		{32210749-5BDA-4E8F-B028-880271A255EA}.Debug|x64.ActiveCfg = Debug|x64
+		{32210749-5BDA-4E8F-B028-880271A255EA}.Debug|x64.Build.0 = Debug|x64
+		{32210749-5BDA-4E8F-B028-880271A255EA}.Debug|x86.ActiveCfg = Debug|Win32
+		{32210749-5BDA-4E8F-B028-880271A255EA}.Debug|x86.Build.0 = Debug|Win32
+		{32210749-5BDA-4E8F-B028-880271A255EA}.Release|x64.ActiveCfg = Release|x64
+		{32210749-5BDA-4E8F-B028-880271A255EA}.Release|x64.Build.0 = Release|x64
+		{32210749-5BDA-4E8F-B028-880271A255EA}.Release|x86.ActiveCfg = Release|Win32
+		{32210749-5BDA-4E8F-B028-880271A255EA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -24,7 +24,9 @@ int main()
 		"mihoyo",
 		"BH3rd",
 	};
+
 	order(str, n);
+
 	for (i = 0; i < n; i++)
 	{
 		puts(str[i]);
