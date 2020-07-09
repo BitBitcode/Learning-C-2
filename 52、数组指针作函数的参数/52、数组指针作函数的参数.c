@@ -5,9 +5,19 @@
 
 #include<stdio.h>
 
+
+void sum(int* p, int n);
+
+
 int main()
 {
-
+	
 
 	return 0;
+}
+
+void sum(int* p, int n)
+{
+	int i, s = 0;
+
 }
