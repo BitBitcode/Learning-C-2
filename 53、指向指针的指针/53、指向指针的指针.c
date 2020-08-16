@@ -28,11 +28,28 @@ int main()
 		"12月·暮岁",
 	};
 
+
+	// 【输出数组】
+	/*
+	// 写法1
 	for (i = 0; i < 12; i++)
 	{
 		p = month + i;
 		printf("%s\n", *p);
 	}
+	*/
+
+	// 写法2
+	p = month;
+	for (i = 0; i < 12; i++)
+	{
+		printf("%s\n", *(p + i));
+	}
+
+	// 【输入数字输出对应月份】
+	printf("输入月份：");
+	scanf_s("%d", &i);
+	printf("对应月份的古名为：%s", *(p + i - 1));
 
 	return 0;
 }
