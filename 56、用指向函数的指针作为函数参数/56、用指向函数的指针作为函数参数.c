@@ -75,9 +75,9 @@ int max(int num_1, int num_2)
 
 
 // 利用指向函数的指针调用以上计算函数，打印计算结果
-void calculate(int num_1, int num_2, int(*function)())
+void calculate(int num_1, int num_2, int(*p_function)())
 {
 	int result;
-	result = (*function)(num_1, num_2);
+	result = (*p_function)(num_1, num_2);
 	printf("%d\n", result);
 }
