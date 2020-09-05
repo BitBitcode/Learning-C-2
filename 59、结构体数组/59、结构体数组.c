@@ -1,6 +1,6 @@
 ﻿//《C语言从入门到精通》P245
 // 第 8 章 结构体与共用体
-// 8.2 结构体
+// 8.3 结构体数组
 // 59、结构体数组
 
 #include<stdio.h>
@@ -12,12 +12,11 @@ struct Student
 	int Num;
 	char Sex[4];
 	int Grade;
-}student_inf[5] = { { "Kiana", 20200001, "男", 1 },
+}student_inf[5] = { { "小明", 20200001, "男", 1 },
 					{ "小红", 20200002, "女", 1 },
 					{ "小蓝", 20190001, "男", 2 },
 					{ "小花", 20190003, "女", 2 },
 					{ "小黑", 20180021, "男", 3 } };
-
 
 
 int main()
@@ -34,15 +33,6 @@ int main()
 		printf("年级：%d\n", student_inf[i].Grade);
 		printf("\n");
 	}
-
-	int j;
-	for (j = 0; i < 20; i++)
-	{
-		printf("%c", student_inf[0].Name[j]);
-	}
-
-	char name[20] = { "Kiana" };
-	printf("%s\n", name);
 
 	return 0;
 }

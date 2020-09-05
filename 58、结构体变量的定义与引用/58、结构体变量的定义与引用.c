@@ -14,6 +14,8 @@ struct Missile
 	char Name[10];
 	char Type[20];
 	int Range;
+	int a[5];
+	char b[20];
 };
 struct Missile DF26;
 struct Missile DF41;
@@ -42,6 +44,27 @@ struct
 
 int main()
 {
-	struct Missile DF26 = { "", "", 0 };	// 初始化
+	struct Missile DF26 = { "", "", 0, {1,2,3,4,5}, "abcd" };	// 初始化
 
+	printf("未赋值的数组\n");
+	printf("%s\n", DF26.b);
+
+	for (int i = 0; i < 5; i++)
+	{
+		DF26.a[i] = 1;
+	}
+	for (int i = 0; i < 4; i++)
+	{
+		DF26.b[i] = 'a';
+	}
+	printf("\n");
+
+	printf("赋值后的数组\n");
+	printf("%s\n", DF26.b);
+	printf("\n");
+
+	printf("请输入：\n");
+	scanf_s("%s", &DF26.b, 20);
+	printf("输入后的数组\n");
+	printf("%s\n", DF26.b);
 }
