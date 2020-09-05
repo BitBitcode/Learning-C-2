@@ -25,6 +25,7 @@ void search(struct Student* p_student, char* p_name)
 	{
 		if (!strcmp(p_student[i].name, p_name))
 		{
+			printf("【查询到】\n");
 			printf("该学生姓名为：%s\n", p_student[i].name);
 			printf("该学生学号为：%d\n", p_student[i].num);
 			printf("该学生分数为：%.2f\n", p_student[i].score);
@@ -52,7 +53,7 @@ int main()
 		{20200003, "小红", 98, 0},
 		{20200005, "小蓝", 82.5, 0},
 		{20200001, "小绿", 73, 0},
-		{20200004, "小黑", 60.5, 0},
+		{20200004, "小黑", 60.5, 0}
 	};
 
 	// 【最大值】
@@ -87,6 +88,7 @@ int main()
 		}
 	}
 	printf("==================== 排序 ====================\n");
+	printf("序号\t分数\t姓名\t学号\n");
 	for (i = 0; i < N; i++)
 	{
 		printf("%d\t%.2f\t%s\t%d\n", students[i].count, students[i].score, students[i].name, students[i].num);
