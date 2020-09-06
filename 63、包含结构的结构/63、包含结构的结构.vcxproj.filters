@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="63、包含结构的结构.cpp">
+    <ClCompile Include="63、包含结构的结构.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
